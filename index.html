@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Page's tab title -->
+    <title>Kwa</title>
+
+    <!-- Stylesheet to reset all the bs that varies between browsers -->
+    <link rel="stylesheet" href="style/reset.css" />
+    <!-- The site's custom stylesheet -->
+    <link rel="stylesheet" href="style/style.css" />
+    <!-- The favicon (icon on the tab in the browser) -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <!-- Here are the colors for the aurora -->
+    <script>
+        let auroraColor1 = 'rgb(25, 198, 237)';
+        let auroraColor2 = 'rgb(171, 9, 221)';
+        let auroraColor3 = 'rgb(7, 68, 223)';
+    </script>
+</head>
+
+<body>
+    <canvas class="aurora" id="canvas"></canvas>
+    <div class="snow" id="snow" data-count="200"></div>
+
+    <main>
+        <!-- Header -->
+        <header>
+            <img src="Site_header.png" />
+            <h1 id="name">I'm the test site!</h1>
+        </header>
+
+        <!-- Socials -->
+        <!-- Commented out the socials that aren't used right now -->
+        <!-- Just change the href value to change the link -->
+        <section class="button-column">
+            <a href="https://bsky.app/profile/kwakwa.bsky.social" class="button icon-button">
+                <img src="style/social-icons/Bluesky.png"></span>
+                <span>Bluesky</span>
+            </a>
+
+            <!-- <a href="#" class="button icon-button">
+                <img src="style/social-icons/DeviantArt.png"></span>
+                <span>DeviantArt</span>
+            </a> -->
+
+            <a href="https://discordapp.com/users/266276169706504212" class="button icon-button">
+                <img src="style/social-icons/Discord.png"></span>
+                <span>Discord</span>
+            </a>
+
+            <a href="https://www.furaffinity.net/user/airbendingkwakwa" class="button icon-button">
+                <img src="style/social-icons/Furaffinity.png"></span>
+                <span>Fur Affinity</span>
+            </a>
+
+            <a href="https://itaku.ee/profile/kwakwa" class="button icon-button">
+                <img src="style/social-icons/itaku.png"></span>
+                <span>Itaku</span>
+            </a>
+
+            <a href="https://www.patreon.com/airbendingkwakwa" class="button icon-button">
+                <img src="style/social-icons/Patreon.png"></span>
+                <span>Patreon</span>
+            </a>
+
+            <!-- <a href="#" class="button icon-button">
+                <img src="style/social-icons/Tumblr.png"></span>
+                <span>Tumblr</span>
+            </a> -->
+
+            <a href="https://x.com/GiantKwakwa" class="button icon-button">
+                <img src="style/social-icons/Twitter.png"></span>
+                <span>Twitter</span>
+            </a>
+        </section>
+
+        <!-- About section -->
+        <section class="paper">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean imperdiet laoreet posuere. Sed
+                scelerisque, lectus pulvinar dictum porttitor, justo nibh facilisis mi, ut porta nisl nunc eget purus.
+                In eget feugiat mauris. Nam viverra ac ipsum quis egestas. Aenean eget tempor ligula, a varius felis.
+                Proin finibus efficitur rutrum. Cras risus lacus, lobortis in velit eu, fermentum pretium turpis. Etiam
+                massa sem, aliquet vel ex vel, sollicitudin lobortis urna. Nunc et ligula suscipit, pretium lectus id,
+                pellentesque nisi. Maecenas in massa convallis, iaculis nulla at, fermentum tellus. Etiam interdum odio
+                ac diam semper, at dapibus felis imperdiet. Proin interdum commodo ligula sit amet pellentesque. Donec
+                mollis nunc vel ex consequat consequat. Vivamus a semper orci, sed eleifend ante. Phasellus posuere
+                massa sed nisl luctus, sit amet rhoncus mauris tincidunt.
+            </p>
+
+            <p>
+                Nulla laoreet, lectus quis pretium convallis, ipsum nulla pretium ante, eu rhoncus massa quam vitae
+                sapien. Maecenas maximus vitae dolor aliquet gravida. Morbi lacinia felis non enim sagittis, sit amet
+                eleifend tortor interdum. Morbi porttitor feugiat metus, nec venenatis elit varius at. Aliquam sed enim
+                et orci tempor efficitur accumsan consequat sem. Praesent eu varius ante, a maximus sapien. Nulla id
+                dolor euismod sapien tempor aliquam. Maecenas id placerat leo. In sagittis condimentum semper. Sed
+                vehicula, tellus sed tincidunt gravida, tortor libero aliquet dolor, sit amet vestibulum velit odio
+                interdum ipsum. In placerat eleifend enim, ac efficitur felis aliquam at. Duis at sodales arcu.
+                Curabitur pharetra orci mi, nec laoreet risus posuere id. Morbi at magna faucibus, aliquam risus sit
+                amet, euismod sem.
+            </p>
+        </section>
+    </main>
+</body>
+
+<!-- Script and style for the snow-->
+<link rel="stylesheet" href="scripts/snow/snow.css" />
+<script src="scripts/snow/snow.js"></script>
+
+<!-- The aurora -->
+<link rel="stylesheet" href="scripts/aurora/aurora.css" />
+<script src="scripts/aurora/aurora.js"></script>
+
+</html>
